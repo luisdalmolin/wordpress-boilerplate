@@ -1,0 +1,23 @@
+/*
+Theme Name: Nome do seu Tema 
+Description: Descrição do seu tema 
+Author: Seu nome 
+Author URI: http://sua.url
+Version: 1.0 
+*/
+
+
+/* alinhamentos */ 
+.alignleft {
+    float: left;
+    margin: 0 10px 10px 0; } 
+
+.alignright {
+    float: right;
+    margin: 0 0 10px 10px; } 
+
+.aligncenter {
+    float: none;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto; } 

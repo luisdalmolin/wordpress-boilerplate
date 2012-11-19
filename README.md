@@ -21,7 +21,7 @@ $pagina['js'][] = TEMPLATE . 'js/pages/single.js';
 Nesta requisição por exemplo, são carregados os arquivos `reset.css`, `style.css` e `single.css`. O arquivo `css.php` faz ainda o compress dos arquivos CSS.
 
 ```html 
-<link rel="stylesheet" href="<?=TEMPLATE?>css/css.php?v=1&amp;f=single.css" /> 
+<link rel="stylesheet" href="<?php echo TEMPLATE ?>css/css.php?v=1&amp;f=single.css" /> 
 ``` 
 
 Recomendado instalação dos seguintes plugins:

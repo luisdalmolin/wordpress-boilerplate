@@ -25,16 +25,16 @@
     global $pagina;
     foreach( $pagina['header'] as $js ) : 
         ?>
-        <script type="text/javascript" src="<?=$js?>"></script>
+        <script type="text/javascript" src="<?php echo $js?>"></script>
         <?php 
     endforeach;
     ?>
 
     <meta name="viewport" content="width=device-width" /> 
-    <link rel="stylesheet" href="<?=TEMPLATE?>css/css.php?v=1&amp;f=<?php foreach( $pagina['css'] as $css ) echo $css . ','; ?>" /> 
+    <link rel="stylesheet" href="<?php echo TEMPLATE ?>css/css.php?v=1&amp;f=<?php foreach( $pagina['css'] as $css ) echo $css . ','; ?>" /> 
 
     <!-- Modernizr --> 
-    <script src="<?=TEMPLATE?>js/libs/modernizr.js"></script>
+    <script src="<?php echo TEMPLATE ?>js/libs/modernizr.js"></script>
 </head>
 <body>
     <div class="container">

@@ -21,7 +21,7 @@
 
     <!-- jQuery --> 
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script type="text/javascript">window.jQuery || document.write('<script src="<?=TEMPLATE?>js/libs/jquery.js"><\/script>')</script> 
+    <script type="text/javascript">window.jQuery || document.write('<script src="<?php echo TEMPLATE ?>js/libs/jquery.js"><\/script>')</script> 
     <script type="text/javascript" src="<?=TEMPLATE?>js/pages/script.js"></script>
 
     <?php 
